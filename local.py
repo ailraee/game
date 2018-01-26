@@ -13,7 +13,7 @@ icon=pygame.image.load('icon.jpg')
 pygame.display.set_icon(icon)
 pygame.display.set_caption('clashRoyal')
 b=barbar(0,800,'f',0.5)
-b1=barbar(200,270,'d',0.5)
+b1=barbar(200,270,'d',2)
 x=100
 y=100
 def checkHealth(obj):
