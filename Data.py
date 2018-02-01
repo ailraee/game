@@ -1,0 +1,26 @@
+import pygame
+armiData={'barbar':{'image':pygame.image.load('barbarian.jpg'),'power':4**(-2),'health':100,'speed':0.2},
+'archer':{'image':pygame.image.load('archer.jpg'),'power':8*10**(-2),'health':150,'speed':0.4},
+'giant':{'image':pygame.image.load('giant.png'),'power':20*10**(-2),'health':500,'speed':0.2},
+'wizard':{'image':pygame.image.load('wizard.jpg'),'power':20*10**(-2),'health':300,'speed':0.4},
+'skeleton':{'image':pygame.image.load('skeleton.jpg'),'power':2*10**(-2),'health':50,'speed':0.5},
+'prince':{'image':pygame.image.load('prince.jpg'),'power':20*10**(-2),'health':400,'speed':0.4},
+'goblin':{'image':pygame.image.load('goblin.png'),'power':2.8*10**(-2),'health':100,'speed':0.6},
+'dragon':{'image':pygame.image.load('dragon.png'),'power':10*10**(-2),'health':200,'speed':0.3}
+}
+building={'Fhall':{'image':pygame.image.load('fighterbuildinghall.PNG'),'health':1000,'power':10*10**(-2),'x':300-55,'y':270,'board':200,'kind':'f'},
+'FLeftXbow':{'image':pygame.image.load('fighterbuilding.PNG'),'health':250,'power':4*10**(-2),'x':0,'y':350,'board':200,'kind':'f'},
+'FRightXbow':{'image':pygame.image.load('fighterbuilding.PNG'),'health':250,'power':4*10**(-2),'x':600-100,'y':350,'board':200,'kind':'f'},
+'Dhall':{'image':pygame.image.load('defenderbuildinghall.PNG'),'health':1000,'power':8*10**(-2),'x':300-55,'y':800,'board':200,'kind':'d'},
+'DLeftXbow':{'image':pygame.image.load('defenderbuilding.PNG'),'health':250,'power':4*10**(-2),'x':0,'y':820,'board':200,'kind':'d'},
+'DRightXbow':{'image':pygame.image.load('defenderbuilding.PNG'),'health':250,'power':4*10**(-2),'x':600-100,'y':820,'board':200,'kind':'d'}
+}
+images={'barbar':pygame.image.load('barbarianCard.jpg'),
+        'archer':pygame.image.load('archerCard.jpg'),
+        'prince':pygame.image.load('princeCard.jpg'),
+        'skeleton':pygame.image.load('skeletonCard.jpg'),
+        'wizard':pygame.image.load('wizardCard.jpg'),
+        'dragon':pygame.image.load('dragonCard.png'),
+        'giant':pygame.image.load('GiantCard.png'),
+        'goblin':pygame.image.load('goblinCard.png')
+}
